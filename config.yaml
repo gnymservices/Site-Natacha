@@ -1,0 +1,37 @@
+baseURL: https://example.com/
+languageCode: en-US
+title: Natacha Kassa
+disqusShortname: ''
+googleAnalytics: ''
+theme: hugo-sustain
+permalinks:
+  post: /:year/:month/:day/:slug
+params:
+  author: Gnym services
+  avatar: img/profile.png
+  custom_css: []
+  custom_js: []
+  description: Service aux entreprises
+  social:
+    Email: gnymservices@gmail.com
+    Github: gnymservices
+    LinkedIn: natacha-k-a36397149
+    #Medium: username
+    #RSS: /blog/index.xml
+    #Stackoverflow: username
+    #Telegram: username
+    #Twitter: username
+menu:
+  main:
+    - identifier: blog
+      name: blog
+      url: /blog/
+      weight: 100
+    - identifier: projects
+      name: projects
+      url: /projects/
+      weight: 200
+    - identifier: resume
+      name: resume
+      url: /resume/
+      weight: 300
