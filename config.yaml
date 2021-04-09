@@ -27,10 +27,10 @@ menu:
       name: blog
       url: /blog/
       weight: 100
-    - identifier: projects
-      name: projects
-      url: /projects/
-      weight: 200
+    #- identifier: projects
+    #  name: projects
+    #  url: /projects/
+    #  weight: 200
     - identifier: resume
       name: resume
       url: /resume/
